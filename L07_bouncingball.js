@@ -19,6 +19,7 @@ function setup(){
 
 function draw(){
     background(0);
+    bgSound.loop();
     fill(r,g,b);
     rect(x,200,40,40);
     x += speed;
