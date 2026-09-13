@@ -23,4 +23,7 @@ function draw(){
     }
     textSize(32);
     text("hi" ,0,200);
+
+    //task1
+    
 }
