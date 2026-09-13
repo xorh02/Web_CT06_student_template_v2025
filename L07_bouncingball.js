@@ -30,5 +30,6 @@ function draw(){
     text("8" ,50,100);
     text("Minecraft" ,50,150);
     //Task2 hint use a forloop
-    text
+    textSize(20);
+    textAlign(LEFT)
 }
