@@ -35,8 +35,8 @@ function draw(){
     //Task1
     textSize(32);
     text("Lycus" ,350,50);
-    text("8" ,350,100);
-    text("Minecraft" ,350,150);
+    text("Jaden" ,350,100);
+    text("Keith" ,350,150);
 
     //Task2 hint use a forloop
     textSize(20);
