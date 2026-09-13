@@ -11,7 +11,7 @@ let yPos = 500;
 let lineGap = 30;
 let bgSound;
 function preload(){
-    b
+    bgSound = loadSound('assets/')
 }
 function setup(){
     createCanvas(500,500);
