@@ -21,10 +21,11 @@ function draw(){
         g = random(255);
         b = random(255);
     }
-    //example
+    //Task1
     textSize(32);
     text("Lycus" ,50,50);
     text("8" ,50,100);
     text("Minecraft" ,50,150);
-
+    
+    
 }
