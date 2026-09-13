@@ -38,5 +38,6 @@ function draw(){
     for(let i =0; i<favfood.length;i++){
         text((i+1)+"."+favfood[i],50,90 + i *30)
     }
-
+    //text moving example
+    text("")
 }
