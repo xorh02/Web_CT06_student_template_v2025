@@ -8,7 +8,7 @@ let favfood = ["Potato Chip","Ramen","Pizza","Chicken Rice",
     "Skittles"
 ];
 function setup(){
-    createCanvas(400,400);
+    createCanvas(1000,1000);
 }
 
 function draw(){
