@@ -23,9 +23,10 @@ function draw(){
     }
     //Task1
     textSize(32);
+    textAlign()
     text("Lycus" ,50,50);
     text("8" ,50,100);
     text("Minecraft" ,50,150);
     
-    
+
 }
