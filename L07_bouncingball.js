@@ -14,7 +14,7 @@ function draw(){
     rect(x,200,40);
     x += speed;
 
-    //checks to bounce
-
+    //checks to bounce and change color
     
+
 }
