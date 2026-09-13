@@ -36,10 +36,8 @@ function draw(){
     textAlign(LEFT);
     text("My favourite Food:",50,50);
     for(let i =0; i<favfood.length;i++){
-        text((i+1)+"."+favfood[i],50,90 + i *30)
+        text((i+1)+"."+favfood[i],50,yPos + i *30)
     }
     //text moving example
-    textSize(24);
-    text("HELLO",width/2,yPos);
     yPos-=0.6;
 }
