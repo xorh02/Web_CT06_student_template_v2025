@@ -31,5 +31,9 @@ function draw(){
     text("Minecraft" ,50,150);
     //Task2 hint use a forloop
     textSize(20);
-    textAlign(LEFT)
+    textAlign(LEFT);
+    text("My favourite Food:",50,50);
+    for(let i =0; i<favfood.length;i++){
+        text()
+    }
 }
