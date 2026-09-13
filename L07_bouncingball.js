@@ -27,9 +27,9 @@ function draw(){
     }
     //Task1
     textSize(32);
-    text("Lycus" ,550,50);
-    text("8" ,550,100);
-    text("Minecraft" ,550,150);
+    text("Lycus" ,350,50);
+    text("8" ,350,100);
+    text("Minecraft" ,350,150);
 
     //Task2 hint use a forloop
     textSize(20);
