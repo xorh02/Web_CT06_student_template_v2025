@@ -9,5 +9,6 @@ function setup(){
 
 function draw(){
     background(220);
-    fill(r,g,b)
+    fill(r,g,b);
+    rect(x,200,40)
 }
