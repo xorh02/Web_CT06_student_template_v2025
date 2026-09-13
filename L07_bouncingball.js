@@ -34,6 +34,6 @@ function draw(){
     textAlign(LEFT);
     text("My favourite Food:",50,50);
     for(let i =0; i<favfood.length;i++){
-        text(favfood[i],50,90)
+        text(favfood[i],50,90 + i)
     }
 }
