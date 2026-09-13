@@ -7,6 +7,7 @@ let speed = 3;
 let favfood = ["Potato Chip","Ramen","Pizza","Chicken Rice",
     "Skittles"
 ];
+let yPos = 1000;
 function setup(){
     createCanvas(1000,1000);
 }
@@ -37,5 +38,5 @@ function draw(){
     for(let i =0; i<favfood.length;i++){
         text((i+1)+"."+favfood[i],50,90 + i *30)
     }
-    
+
 }
