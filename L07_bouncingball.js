@@ -15,11 +15,12 @@ function preload(){
 }
 function setup(){
     createCanvas(500,500);
+     bgSound.loop();
 }
 
 function draw(){
     background(0);
-    bgSound.loop();
+   
     fill(r,g,b);
     rect(x,200,40,40);
     x += speed;
