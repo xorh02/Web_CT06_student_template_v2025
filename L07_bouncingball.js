@@ -1,6 +1,5 @@
 // write your codes here
 let x=200;
-let y=200;
 let r =100;
 let g = 100;
 let b = 100;
@@ -10,5 +9,5 @@ function setup(){
 
 function draw(){
     background(220);
-    fill()
+    fill(r,g,b)
 }
