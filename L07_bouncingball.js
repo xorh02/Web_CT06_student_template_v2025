@@ -24,6 +24,7 @@ function draw(){
     //example
     textSize(32);
     text("Lycus" ,50,50);
-    //task1
+    text("Lycus" ,50,50);
+    text("Lycus" ,50,50);
 
 }
