@@ -11,10 +11,10 @@ function setup(){
 function draw(){
     background(220);
     fill(r,g,b);
-    rect(x,200,40);
+    rect(x,200,40,40);
     x += speed;
 
     //checks to bounce and change color
-    
+
 
 }
