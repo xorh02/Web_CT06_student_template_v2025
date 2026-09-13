@@ -23,7 +23,7 @@ function draw(){
     }
     //example
     textSize(32);
-    text("hi" ,0,200);
+    text("Lycus" ,50,50);
     //task1
-    
+
 }
