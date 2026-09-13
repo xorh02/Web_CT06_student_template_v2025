@@ -7,9 +7,9 @@ let speed = 3;
 let favfood = ["Potato Chip","Ramen","Pizza","Chicken Rice",
     "Skittles"
 ];
-let yPos = 1000;
+let yPos = 500;
 function setup(){
-    createCanvas(1000,1000);
+    createCanvas(500,500);
 }
 
 function draw(){
