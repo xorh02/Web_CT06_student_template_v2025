@@ -29,7 +29,7 @@ function draw(){
     text("Lycus" ,550,50);
     text("8" ,550,100);
     text("Minecraft" ,550,150);
-    
+
     //Task2 hint use a forloop
     textSize(20);
     textAlign(LEFT);
@@ -37,4 +37,5 @@ function draw(){
     for(let i =0; i<favfood.length;i++){
         text((i+1)+"."+favfood[i],50,90 + i *30)
     }
+    
 }
