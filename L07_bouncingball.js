@@ -11,7 +11,7 @@ let yPos = 500;
 let lineGap = 30;
 let bgSound;
 function preload(){
-    bgSound = loadSound('assets/')
+    bgSound = loadSound('assets/star_wars_theme_8_bit.mp3');
 }
 function setup(){
     createCanvas(500,500);
