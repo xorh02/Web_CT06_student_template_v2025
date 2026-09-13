@@ -33,6 +33,7 @@ function draw(){
 
     //Task2 hint use a forloop
     textSize(20);
+    fill(255,255,0);
     textAlign(LEFT);
     text("My favourite Food:",50,50);
     for(let i =0; i<favfood.length;i++){
