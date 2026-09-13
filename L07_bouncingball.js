@@ -4,6 +4,7 @@ let r =100;
 let g = 100;
 let b = 100;
 let speed = 3;
+
 function setup(){
     createCanvas(400,400);
 }
@@ -23,7 +24,6 @@ function draw(){
     }
     //Task1
     textSize(32);
-    textAlign(LEFT)
     text("Lycus" ,50,50);
     text("8" ,50,100);
     text("Minecraft" ,50,150);
