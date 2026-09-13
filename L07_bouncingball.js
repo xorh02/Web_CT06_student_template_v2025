@@ -21,9 +21,9 @@ function draw(){
         g = random(255);
         b = random(255);
     }
+    //example
     textSize(32);
     text("hi" ,0,200);
-
     //task1
     
 }
