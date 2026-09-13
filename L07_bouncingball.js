@@ -8,6 +8,7 @@ let favfood = ["Potato Chip","Ramen","Pizza","Chicken Rice",
     "Skittles"
 ];
 let yPos = 500;
+let lineGap = 30;
 function setup(){
     createCanvas(500,500);
 }
@@ -37,8 +38,11 @@ function draw(){
     textAlign(LEFT);
     text("My favourite Food:",50,50);
     for(let i =0; i<favfood.length;i++){
-        text((i+1)+"."+favfood[i],50,yPos + i *30)
+        text((i+1)+"."+favfood[i],50,yPos + i *lineGap)
     }
     //text moving example
     yPos-=0.6;
+    if(yPos< -favfood.length * lineGap){
+        
+    }
 }
