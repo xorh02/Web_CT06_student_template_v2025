@@ -24,7 +24,7 @@ function draw(){
     //example
     textSize(32);
     text("Lycus" ,50,50);
-    text("Lycus" ,50,50);
+    text("8" ,50,100);
     text("Lycus" ,50,50);
 
 }
