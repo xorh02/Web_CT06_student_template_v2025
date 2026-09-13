@@ -40,5 +40,6 @@ function draw(){
     }
     //text moving example
     textSize(24);
-    text("HELLO")
+    text("HELLO",width/2,yPos);
+    y
 }
