@@ -13,7 +13,7 @@ function setup(){
 }
 
 function draw(){
-    background(220);
+    background(0);
     fill(r,g,b);
     rect(x,200,40,40);
     x += speed;
