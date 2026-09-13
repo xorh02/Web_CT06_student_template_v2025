@@ -23,7 +23,7 @@ function draw(){
     }
     //Task1
     textSize(32);
-    textAlign(RIGHT,CENTER)
+    textAlign(RIGHT)
     text("Lycus" ,50,50);
     text("8" ,50,100);
     text("Minecraft" ,50,150);
