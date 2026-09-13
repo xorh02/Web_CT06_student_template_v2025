@@ -1,5 +1,6 @@
 // write your codes here
-let x=
+let x=200;
+let y=
 function setup(){
     createCanvas(400,400);
 }
