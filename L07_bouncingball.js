@@ -21,6 +21,6 @@ function draw(){
         g = random(255);
         b = random(255);
     }
-    
-    text("hi" ,)
+    textSize()
+    text("hi" ,0,200);
 }
