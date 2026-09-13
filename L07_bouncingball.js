@@ -22,7 +22,7 @@ function draw(){
     background(0);
    
     fill(r,g,b);
-    rect(x,200,40,40);
+    rect(x,300,40,40);
     x += speed;
 
     // TO DO:checks to bounce and change color
