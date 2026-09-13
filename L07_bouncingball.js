@@ -39,5 +39,6 @@ function draw(){
         text((i+1)+"."+favfood[i],50,90 + i *30)
     }
     //text moving example
-    text("")
+    textSize(24);
+    text("HELLO")
 }
