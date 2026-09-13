@@ -18,8 +18,8 @@ function draw(){
     if(x < 0 || x <= width-40){
         speed = -speed;
         r = random(255);
-        r = random(255);
-        r = random(255);
+        g = random(255);
+        b = random(255);
     }
 
 }
