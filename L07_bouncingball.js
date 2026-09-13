@@ -15,6 +15,6 @@ function draw(){
     x += speed;
 
     // TO DO:checks to bounce and change color
-
+    
 
 }
