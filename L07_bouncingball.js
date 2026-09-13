@@ -17,7 +17,9 @@ function draw(){
     // TO DO:checks to bounce and change color
     if(x < 0 || x <= width-40){
         speed = -speed;
-        
+        r = random(255);
+        r = random(255);
+        r = random(255);
     }
 
 }
