@@ -42,8 +42,8 @@ function draw(){
     }
     //text moving example
     yPos-=0.6;
-    
-    if(yPos< -favfood.length * lineGap){
+
+    if(yPos< 50){
         yPos = height
     }
 }
