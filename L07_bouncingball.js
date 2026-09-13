@@ -5,8 +5,8 @@ let g = 100;
 let b = 100;
 let speed = 3;
 let favfood = ["Potato Chip","Ramen","Pizza","Chicken Rice",
-    ""
-]
+    "Skittles"
+];
 function setup(){
     createCanvas(400,400);
 }
