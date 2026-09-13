@@ -13,4 +13,8 @@ function draw(){
     fill(r,g,b);
     rect(x,200,40);
     x += speed;
+
+    //checks to bounce
+
+    
 }
