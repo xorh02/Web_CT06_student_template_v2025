@@ -54,6 +54,6 @@ function updateCountdown(){
     }
 }
 function alarm(){
-    background(random(255),random(255),random(255));
+    colors = random(255);
     bgSound.play();
 }
