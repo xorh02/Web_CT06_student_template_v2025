@@ -12,7 +12,7 @@ function draw(){
     background(220);
     fill(r,g,b);
     textSize(32);
-    text("Bounce!",x,50);
+    text("KE BIN!",x,50);
     x += speed;
     if(x > width-60 || x-60<0){ // boundary check detection
         speed = -speed;
