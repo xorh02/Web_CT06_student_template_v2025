@@ -24,5 +24,5 @@ function draw(){
     let m = minute();
     let s = second();
     let textString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
-    t
+    textSize(32);
 }
