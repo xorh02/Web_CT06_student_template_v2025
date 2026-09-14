@@ -4,7 +4,7 @@ let speed = 2;
 let r =0;
 let g = 0;
 let b =0;
-let colors=220
+let colors=220;
 let countdown = 5;
 let interval;
 let bgSound;
@@ -17,7 +17,7 @@ function setup(){
 }
 
 function draw(){
-    background(220);
+    background(colors);
     fill(r,g,b);
     textSize(32);
     text("KE BIN!",x,50);
