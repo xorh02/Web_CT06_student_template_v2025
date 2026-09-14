@@ -16,7 +16,7 @@ function setup(){
 }
 
 function draw(){
-    background();
+    background(r,g,b);
     fill(r,g,b);
     textSize(32);
     text("KE BIN!",x,50);
