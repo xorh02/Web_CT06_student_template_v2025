@@ -59,6 +59,9 @@ function draw(){
     }else{
           fill(255,255,0);
           textSize(32);
-          text("click here to start" ,350,50);
+          text("click here to start" ,250,250);
     }
+}
+function mousePressed(){
+    if()
 }
