@@ -4,7 +4,8 @@ let speed = 2;
 let r =0;
 let g = 0;
 let b =0;
-let 
+let countdown = 5;
+let interval;
 function setup(){
     createCanvas(400,400);
 }
