@@ -6,6 +6,8 @@ let g = 0;
 let b =0;
 let countdown = 5;
 let interval;
+let bgSound;
+
 function setup(){
     createCanvas(400,400);
 }
@@ -33,6 +35,7 @@ function draw(){
     text(textString, width/2,height/2);
     textSize(16); 
     text("CLICK ME TO START TIMER",width/2,height/2 + 100);
+    textSize(32);
     text(countdown,width/2,height/2 + 50);
 }
 function mousePressed(){
