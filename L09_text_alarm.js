@@ -20,11 +20,12 @@ function draw(){
         g = random(255);
         b = random(255);
     }
+    //task 1
     let h = hour();
     let m = minute();
     let s = second();
     let textString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
     textSize(32);
     textAlign(CENTER,CENTER);
-    text(textString, width/2,height/2);
+    text(textString, width/2,height/2); 
 }
