@@ -63,5 +63,8 @@ function draw(){
     }
 }
 function mousePressed(){
-    if()
+    if(started===false){
+        started = true;
+    }
+    bgSound.loop();
 }
