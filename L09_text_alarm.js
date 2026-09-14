@@ -1,5 +1,5 @@
 // write your codes here
-let x = 50;
+let x = 200;
 let speed = 2;
 let r =0;
 let g = 0;
@@ -12,7 +12,7 @@ function draw(){
     background(220);
     fill(r,g,b);
     textSize(32);
-    text("Bounce!",x,200);
+    text("Bounce!",x,50);
     x += speed;
     if(x > width-120 || x<0){ // boundary check detection
         speed = -speed;
