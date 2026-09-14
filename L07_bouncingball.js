@@ -57,8 +57,8 @@ function draw(){
         yPos = height
     }
     }else{
-         
-        textSize(32);
+          fill(255,255,0);
+          textSize(32);
           text("Lycus" ,350,50);
     }
 }
