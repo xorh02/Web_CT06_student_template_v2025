@@ -1,13 +1,16 @@
 // write your codes here
 let x = 200;
 let speed = 2;
-let r
+let r =0;
+let g = 0;
+let b =0;
 function setup(){
     createCanvas(400,400);
 }
 
 function draw(){
     background(220);
+    fill(r,g,b);
     textSize(16);
     text("Bounce!",x,200);
     x += speed;
