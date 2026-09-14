@@ -19,7 +19,7 @@ function setup(){
 }
 
 function draw(){
-    background(colors,colors,colors);
+    background(colors,colorss,colorsss);
     fill(r,g,b);
     textSize(32);
     text("KE BIN!",x,50);
@@ -56,6 +56,8 @@ function updateCountdown(){
     }
 }
 function alarm(){
+    colors = random(255);
+    colorss = random(255);
     colors = random(255);
     bgSound.play();
 }
