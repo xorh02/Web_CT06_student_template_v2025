@@ -30,6 +30,7 @@ function draw(){
     let textString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
     textSize(32);
     textAlign(CENTER,CENTER);
-    text(textString, width/2,height/2); 
+    text(textString, width/2,height/2);
+    textSize(16); 
     text("CLICK ME TO START TIMER",width/2,height/2 + 100);
 }
