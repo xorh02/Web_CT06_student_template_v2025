@@ -33,7 +33,7 @@ function draw(){
         g = random(255);
         b = random(255);
     }
-    if(!started){
+    if(started === false){
     //Task1
     textSize(32);
     text("Lycus" ,350,50);
