@@ -26,5 +26,5 @@ function draw(){
     let textString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
     textSize(32);
     textAlign(CENTER,CENTER);
-    text()
+    text(textString,)
 }
