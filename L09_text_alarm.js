@@ -4,6 +4,7 @@ let speed = 2;
 let r =0;
 let g = 0;
 let b =0;
+let colors=220
 let countdown = 5;
 let interval;
 let bgSound;
