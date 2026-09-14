@@ -9,6 +9,8 @@ function draw(){
     background(220);
     textSize(16);
     text("Bounce!",x,200);
-    x += 0.6;
-
+    x += speed;
+    if(x > width || x<0){
+        
+    }
 }
