@@ -58,6 +58,6 @@ function updateCountdown(){
 function alarm(){
     colors = random(255);
     colorss = random(255);
-    colors = random(255);
+    colorsss = random(255);
     bgSound.play();
 }
