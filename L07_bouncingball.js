@@ -33,7 +33,7 @@ function draw(){
         g = random(255);
         b = random(255);
     }
-    if(!started)
+    if(!started){
     //Task1
     textSize(32);
     text("Lycus" ,350,50);
@@ -55,5 +55,8 @@ function draw(){
     
     if(yPos< -favfood.length * lineGap){
         yPos = height
+    }
+    }else{
+        
     }
 }
