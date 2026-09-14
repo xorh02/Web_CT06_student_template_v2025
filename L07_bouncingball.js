@@ -4,8 +4,7 @@ let r =100;
 let g = 100;
 let b = 100;
 let speed = 3;
-let favfood = ["Potato Chip","Ramen","Pizza","Chicken Rice",
-    "Skittles","Fried Rice", "Pasta"];
+let favfood = ["Potato Chip","Ramen","Pizza","Chicken Rice","Skittles","Fried Rice", "Pasta"];
 let yPos = 500;
 let lineGap = 30;
 let bgSound;
