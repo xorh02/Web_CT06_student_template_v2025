@@ -11,7 +11,7 @@ function setup(){
 function draw(){
     background(220);
     fill(r,g,b);
-    textSize(16);
+    textSize(32);
     text("Bounce!",x,200);
     x += speed;
     if(x > width-60 || x<0){
