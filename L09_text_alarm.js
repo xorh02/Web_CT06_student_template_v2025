@@ -1,5 +1,5 @@
 // write your codes here
-let x = 200;
+let x = 50;
 let speed = 2;
 let r =0;
 let g = 0;
@@ -25,4 +25,5 @@ function draw(){
     let s = second();
     let textString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
     textSize(32);
+    textAlign()
 }
