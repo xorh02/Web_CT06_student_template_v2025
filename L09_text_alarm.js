@@ -52,5 +52,5 @@ function updateCountdown(){
     }
 }
 function alarm(){
-    background
+    background(random(255),random)
 }
