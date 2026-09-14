@@ -12,11 +12,11 @@ function preload(){
 }
 function setup(){
     createCanvas(400,400);
-     
+    
 }
 
 function draw(){
-    background(r,g,b);
+    background();
     fill(r,g,b);
     textSize(32);
     text("KE BIN!",x,50);
