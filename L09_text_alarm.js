@@ -25,7 +25,7 @@ function draw(){
     let h = hour();
     let m = minute();
     let s = second();
-    let textString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
+    let textString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,1);
     textSize(32);
     textAlign(CENTER,CENTER);
     text(textString, width/2,height/2); 
