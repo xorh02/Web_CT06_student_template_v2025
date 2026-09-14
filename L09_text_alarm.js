@@ -23,5 +23,5 @@ function draw(){
     let h = hour();
     let m = minute();
     let s = second();
-    
+    let textString = nf(h,2) + ":"
 }
