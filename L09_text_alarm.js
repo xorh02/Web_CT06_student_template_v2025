@@ -31,5 +31,5 @@ function draw(){
     textSize(32);
     textAlign(CENTER,CENTER);
     text(textString, width/2,height/2); 
-    text("CLICK ME TO START TIMER",)
+    text("CLICK ME TO START TIMER",width/2,height/2 + 100);
 }
