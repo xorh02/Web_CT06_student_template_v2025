@@ -34,7 +34,7 @@ function draw(){
     textSize(32);
     text("Lycus" ,350,50);
     text("Jaden" ,350,100);
-    text("Ke Yang" ,350,150);
+    text("Keith" ,350,150);
     text("Alexander" ,350,200);
     text("Ke Bin" ,350,250);
 
@@ -55,7 +55,7 @@ function draw(){
     }else{
           fill(255,255,0);
           textSize(32);
-          text("click here to start" ,250,250);
+          text("click here to start" ,250,250); 
     }
 }
 function mousePressed(){
