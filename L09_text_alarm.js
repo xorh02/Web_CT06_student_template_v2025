@@ -15,9 +15,7 @@ function preload(){
 }
 function setup(){
     createCanvas(400,400);
-    
 }
-
 function draw(){
     background(colors,colorss,colorsss);
     fill(r,g,b);
