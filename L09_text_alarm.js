@@ -51,3 +51,6 @@ function updateCountdown(){
         setInterval(alarm,500);
     }
 }
+function alarm(){
+    background
+}
