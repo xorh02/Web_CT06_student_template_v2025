@@ -14,7 +14,7 @@ function draw(){
     textSize(32);
     text("Bounce!",x,50);
     x += speed;
-    if(x > width-120 || x<0){ // boundary check detection
+    if(x > width-60 || x<0){ // boundary check detection
         speed = -speed;
         r = random(255);
         g = random(255);
