@@ -9,7 +9,7 @@ function setup(){
     userinput.position(50,50);
     userinput.input(updateUser);
     colorinput = createColorPicker(0);
-    colorinput.position()
+    colorinput.position(50,20);
 }
 
 
