@@ -39,5 +39,6 @@ function display(){
     const adjectivevalue = adjinput.value();
     const advvalue = advinput.value();
     const placevalue = placeinput.value();
-    let template = random()
+    let template = random(storyTemplates);
+    storyText = template.re
 }
