@@ -29,7 +29,8 @@ function setup(){
     verbinput = createInput();
     verbinput.position(50,50);
     
-    ad
+    adjinput = createInput();
+    adjinput
 }
 
 // function updateUser(){
