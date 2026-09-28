@@ -12,7 +12,8 @@ function setup(){
     colorinput = createColorPicker(0);
     colorinput.position(50,20);
     button = createButton("Print");
-    button.position(220,50)
+    button.position(220,50);
+    button.mousePressed(display);
 }
 function draw(){
     background(220);
@@ -24,4 +25,6 @@ function draw(){
 function updateUser(){
     usertext = this.value();
 }
-
+function display(){
+    
+}
