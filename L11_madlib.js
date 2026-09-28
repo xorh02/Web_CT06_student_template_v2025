@@ -11,7 +11,8 @@ function setup(){
     userinput.input(updateUser);
     colorinput = createColorPicker(0);
     colorinput.position(50,20);
-    button = createButton("send")
+    button = createButton("send");
+    button.position()
 }
 function draw(){
     background(220);
