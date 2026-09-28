@@ -33,7 +33,11 @@ function setup(){
     adjinput.position(50,80);
 
     placeinput = createInput();
-    placeinput.position(50,110);
+    placeinput.position(50,110); 
+
+     button = createButton("Print");
+    button.position(220,50);
+    button.mousePressed(display);
 }
 
 // function updateUser(){
