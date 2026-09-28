@@ -9,7 +9,7 @@ let userinput ;
 let colorinput; 
 let button;
 
-
+let nouninput,verb,input
 
 
 function setup(){
