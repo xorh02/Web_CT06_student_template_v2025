@@ -37,10 +37,11 @@ function display(){
     const nounvalue = nouninput.value() ;
     const verbvalue = verbinput.value();
     const adjectivevalue = adjinput.value();
-    const placevalue = advinput.value();
+    const advvalue = advinput.value();
     const placevalue = placeinput.value();
     text(nounvalue, 50 , height-50);
     text(verbvalue, 50 , height-70);
     text(adjectivevalue, 50 , height-90);
     text(placevalue, 50 , height-110);
+     text(advvalue, 50 , height-110);
 }
