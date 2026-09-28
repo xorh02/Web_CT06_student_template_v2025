@@ -46,13 +46,12 @@ function setup(){
 
 function display(){
     background(220);
-    const inputvalue = userinput.value();
-    fill(colorinput.value());
+  
     textSize(24);
     textAlign(CENTER,CENTER);
-    text(inputvalue, 50 , height/2);
+  
 
-    const nounvalue = nouninput.value() ;
+    const nounvalue = nouninput.value() 
     const verbvalue = verbinput.value();
     const adjectivevalue = adjinput.value();
     const placevalue = placeinput.value();
