@@ -17,3 +17,7 @@ function draw(){
 
 
 }
+
+function updateUser(){
+    user
+}
