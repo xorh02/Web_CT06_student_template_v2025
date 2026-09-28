@@ -52,7 +52,7 @@ function display(){
     textAlign(CENTER,CENTER);
     text(inputvalue, 50 , height/2);
 
-    const nounvalue ;
+    const nounvalue =  ;
     const verbvalue ;
     const adjectivevalue;
     const placevalue
