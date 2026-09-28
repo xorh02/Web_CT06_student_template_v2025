@@ -5,7 +5,7 @@ let storyText = "";
 let storyTemplates =[
     " The {adj} {noun} decided to {verb} {adv} at the {place}.",
     "One Day, a {adj} {noun} wanted to {verb} {adv} in {place}",
-    "Did you hear about the {adj} {noun} hat tried to {verb} {adv} near {place}:"
+    "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}:"
 ]
 function setup(){
     createCanvas(800,400);
@@ -32,7 +32,7 @@ function setup(){
 }
 function display(){
     background(220);
-    textSize(24);
+    textSize(20);
     textAlign(CENTER,CENTER);
     const nounvalue = nouninput.value() ;
     const verbvalue = verbinput.value();
