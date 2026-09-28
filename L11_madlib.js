@@ -32,5 +32,5 @@ function display(){
     text(nounvalue, 50 , height/2-50);
     text(verbvalue, 50 , height/2-70);
     text(adjectivevalue, 50 , height/2-90);
-    text(placevalue, 50 , height/2);
+    text(placevalue, 50 , height/2-110);
 }
