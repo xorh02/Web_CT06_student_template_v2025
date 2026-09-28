@@ -1,6 +1,6 @@
 // write your codes here 
 let button;
-let nouninput,verbinput,adjinput,adv,placeinput;
+let nouninput,verbinput,adjinput,advinput,placeinput;
 let storyText = "";
 let storyTemplates =[
     " The {adj} {noun} decided to {verb} {adv} at the {place}.",
@@ -19,7 +19,10 @@ function setup(){
     
     adjinput = createInput();
     adjinput.position(50,80);
-
+ 
+    adjinput = createInput();
+    adjinput.position(50,80);
+ 
     placeinput = createInput();
     placeinput.position(50,110); 
 
