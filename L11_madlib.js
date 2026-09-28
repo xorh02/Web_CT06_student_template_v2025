@@ -29,8 +29,8 @@ function display(){
     const verbvalue = verbinput.value();
     const adjectivevalue = adjinput.value();
     const placevalue = placeinput.value();
-    text(inputvalue, 50 , height/2);
-    text(inputvalue, 50 , height/2);
+    text(nounvalue, 50 , height/2);
+    text(verbvalue, 50 , height/2);
     text(inputvalue, 50 , height/2);
     text(inputvalue, 50 , height/2);
 }
