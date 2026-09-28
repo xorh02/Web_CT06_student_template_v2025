@@ -16,7 +16,7 @@ function setup(){
     button.mousePressed(display);
 }
 function draw(){
-    background(220);
+  
    
 }
 function updateUser(){
@@ -28,5 +28,5 @@ function display(){
     fill(colorinput.value());
     textSize(24);
     textAlign(CENTER,CENTER);
-    text(inputvalue, width/2 , height/2);
+    text(inputvalue, 50 , height/2);
 }
