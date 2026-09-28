@@ -20,8 +20,8 @@ function setup(){
     adjinput = createInput();
     adjinput.position(50,80);
  
-    adjinput = createInput();
-    adjinput.position(50,80);
+    advinput = createInput();
+    advinput.position(50,110);
  
     placeinput = createInput();
     placeinput.position(50,110); 
