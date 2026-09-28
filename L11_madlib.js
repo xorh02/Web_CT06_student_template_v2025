@@ -5,7 +5,7 @@ let storyText = "";
 let storyTemplates =[
     " The {adj} {noun} decided to {verb} {adv} at the {place}.",
     "One Day, a {adj} {noun} wanted to {verb} {adv} in {place}",
-    "Did you hear about the {adj} {noun} hat tried to {verb} {}"
+    "Did you hear about the {adj} {noun} hat tried to {verb} {adv} near {place}:"
 ]
 function setup(){
     createCanvas(400,400);
