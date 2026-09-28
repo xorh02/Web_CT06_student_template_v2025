@@ -9,20 +9,20 @@ let userinput ;
 let colorinput; 
 let button;
 
-let nouninput,verbinput,adjinput,placeinput
+let nouninput,verbinput,adjinput,placeinput;
 
 
 function setup(){
     createCanvas(400,400);
-    background(220);
-    userinput = createInput();
-    userinput.position(50,50);
-    userinput.input(updateUser);
-    colorinput = createColorPicker(0);
-    colorinput.position(50,20);
-    button = createButton("Print");
-    button.position(220,50);
-    button.mousePressed(display);
+    // background(220);
+    // userinput = createInput();
+    // userinput.position(50,50);
+    // userinput.input(updateUser);
+    // colorinput = createColorPicker(0);
+    // colorinput.position(50,20);
+    // button = createButton("Print");
+    // button.position(220,50);
+    // button.mousePressed(display);
 }
 
 function updateUser(){
