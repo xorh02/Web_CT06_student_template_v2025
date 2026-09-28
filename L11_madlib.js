@@ -24,7 +24,8 @@ function setup(){
     // button.position(220,50);
     // button.mousePressed(display);
     nouninput = createInput();
-    nouninput.position
+    nouninput.position(50,20);
+    
 }
 
 // function updateUser(){
