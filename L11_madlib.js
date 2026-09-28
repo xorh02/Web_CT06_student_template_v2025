@@ -12,7 +12,7 @@ function setup(){
     colorinput = createColorPicker(0);
     colorinput.position(50,20);
     button = createButton("send");
-    button.position(250,50)
+    button.position(220,50)
 }
 function draw(){
     background(220);
