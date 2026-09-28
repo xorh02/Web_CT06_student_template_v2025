@@ -1,6 +1,7 @@
 // write your codes here 
 let button;
 let nouninput,verbinput,adjinput,placeinput;
+let story
 function setup(){
     createCanvas(400,400);
      background(220);
