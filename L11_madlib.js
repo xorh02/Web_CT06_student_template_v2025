@@ -41,8 +41,8 @@ function display(){
     const placevalue = placeinput.value();
     let template = random(storyTemplates);
     storyText = template.replace("{noun}",nounvalue)
-                        .replace("{noun}",nounvalue)
-                        .replace("{adj}",nounvalue)
+                        .replace("{verb}",verbvalue)
+                        .replace("{adj}",adjectivevalue)
                         .replace("{adv}",advvalue)
                         .replace("{place}",placevalue)
 }
