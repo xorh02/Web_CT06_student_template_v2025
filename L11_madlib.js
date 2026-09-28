@@ -53,5 +53,7 @@ function display(){
     text(inputvalue, 50 , height/2);
 
     const nounvalue ;
-    const 
+    const verbvalue ;
+    const adjectivevalue;
+    const placevalue
 }
