@@ -4,7 +4,7 @@ let nouninput,verbinput,adjinput,placeinput;
 let storyText = "";
 let storyTemplates =[
     " The {adj} {noun} decided to {verb} {adv} at the {place}.",
-    ""
+    "One Day, a {adj} {noun} wanted to {}"
 ]
 function setup(){
     createCanvas(400,400);
