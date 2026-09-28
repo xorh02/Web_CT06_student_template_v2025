@@ -36,7 +36,7 @@ function setup(){
     placeinput.position(50,110); 
 
      button = createButton("Generate Story");
-    button.position(220,50);
+    button.position(50,140);
     button.mousePressed(display);
 }
 
