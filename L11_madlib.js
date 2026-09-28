@@ -40,7 +40,7 @@ function display(){
     const advvalue = advinput.value();
     const placevalue = placeinput.value();
     let template = random(storyTemplates);
-    storyText = template.replace("{noun}")
+    storyText = template.replace("{noun}",nounvalue)
                         .replace()
                         .replace()
                         .replace()
