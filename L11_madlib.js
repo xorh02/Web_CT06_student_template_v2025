@@ -1,14 +1,5 @@
 // write your codes here 
-
-let userinput ;
-
-
-
-
-
-
 let button;
-
 let nouninput,verbinput,adjinput,placeinput;
 function setup(){
     createCanvas(400,400);
