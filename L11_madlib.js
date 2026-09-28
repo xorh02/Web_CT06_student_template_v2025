@@ -1,9 +1,17 @@
 // write your codes here 
 
 let userinput ;
-let usertext;
+
+
+
+
+
 let colorinput; 
 let button;
+
+
+
+
 function setup(){
     createCanvas(400,400);
     background(220);
