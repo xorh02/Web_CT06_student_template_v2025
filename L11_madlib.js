@@ -26,9 +26,9 @@ function setup(){
     
 }
 
-function updateUser(){
-    usertext = this.value();
-}
+// function updateUser(){
+//     usertext = this.value();
+// }
 
 function display(){
     background(220);
