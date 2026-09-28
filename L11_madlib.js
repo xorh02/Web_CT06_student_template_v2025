@@ -3,8 +3,8 @@
 let userinput ;
 let usertext;
 function setup(){
-    createCanvas()
-
+    createCanvas(200,200);
+    
 
 }
 
