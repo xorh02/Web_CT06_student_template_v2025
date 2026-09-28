@@ -44,5 +44,5 @@ function display(){
                         .replace("{noun}",nounvalue)
                         .replace("{noun}",nounvalue)
                         .replace("{noun}",nounvalue)
-                        .replace("{noun}",nounvalue)
+                        .replace("{place}",placevalue)
 }
