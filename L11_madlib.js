@@ -17,14 +17,15 @@ function setup(){
 }
 function draw(){
     background(220);
-    fill(colorinput.value());
-    textSize(24);
-    textAlign(CENTER,CENTER);
-    text(usertext, width/2 , height/2);
+   
 }
 function updateUser(){
     usertext = this.value();
 }
 function display(){
-    
+    background(220);
+    fill(colorinput.value());
+    textSize(24);
+    textAlign(CENTER,CENTER);
+    text(usertext, width/2 , height/2);
 }
