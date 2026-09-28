@@ -4,7 +4,7 @@ let userinput ;
 let usertext;
 let colorinput;
 function setup(){
-    createCanvas(200,200);
+    createCanvas(400,400);
     userinput = createInput();
     userinput.position(50,50);
     userinput.input(updateUser);
