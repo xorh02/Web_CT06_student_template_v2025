@@ -24,10 +24,10 @@ function setup(){
     advinput.position(50,110);
  
     placeinput = createInput();
-    placeinput.position(50,110); 
+    placeinput.position(50,140); 
 
     button = createButton("Generate Story");
-    button.position(50,140);
+    button.position(50,170);
     button.mousePressed(display);
 }
 function display(){
