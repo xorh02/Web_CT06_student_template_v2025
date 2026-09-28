@@ -30,7 +30,7 @@ function display(){
     const adjectivevalue = adjinput.value();
     const placevalue = placeinput.value();
     text(inputvalue, 50 , height/2);
-        text(inputvalue, 50 , height/2);
-        text(inputvalue, 50 , height/2);
-            text(inputvalue, 50 , height/2);
+    text(inputvalue, 50 , height/2);
+    text(inputvalue, 50 , height/2);
+    text(inputvalue, 50 , height/2);
 }
