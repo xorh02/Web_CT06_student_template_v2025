@@ -54,6 +54,6 @@ function display(){
 
     const nounvalue = nouninput.value() ;
     const verbvalue = verbinput.value();
-    const adjectivevalue;
-    const placevalue
+    const adjectivevalue = adjinput.value();
+    const placevalue = placeinput.value();
 }
