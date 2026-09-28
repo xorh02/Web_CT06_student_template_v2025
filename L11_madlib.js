@@ -6,6 +6,7 @@ let colorinput;
 let button;
 function setup(){
     createCanvas(400,400);
+    background(220);
     userinput = createInput();
     userinput.position(50,50);
     userinput.input(updateUser);
@@ -15,10 +16,6 @@ function setup(){
     button.position(220,50);
     button.mousePressed(display);
     
-}
-function draw(){
-  
-   
 }
 function updateUser(){
     usertext = this.value();
