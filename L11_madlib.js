@@ -16,7 +16,7 @@ function draw(){
     background(220);
     textSize(24);
     textAlign(CENTER,CENTER);
-    text(usertext)
+    text(usertext, width/2 , height/2);
 
 }
 
