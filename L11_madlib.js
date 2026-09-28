@@ -24,9 +24,9 @@ function updateUser(){
 }
 function display(){
     background(220);
-    const inputvalue = userinput
+    const inputvalue = userinput.value();
     fill(colorinput.value());
     textSize(24);
     textAlign(CENTER,CENTER);
-    text(usertext, width/2 , height/2);
+    text(inputvalue, width/2 , height/2);
 }
