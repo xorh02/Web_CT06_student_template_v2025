@@ -31,6 +31,6 @@ function display(){
     const placevalue = placeinput.value();
     text(nounvalue, 50 , height/2);
     text(verbvalue, 50 , height/2);
-    text(inputvalue, 50 , height/2);
-    text(inputvalue, 50 , height/2);
+    text(adjectivevalue, 50 , height/2);
+    text(placevalue, 50 , height/2);
 }
