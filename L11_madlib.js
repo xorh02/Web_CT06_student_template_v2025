@@ -15,11 +15,12 @@ function setup(){
     button = createButton("Print");
     button.position(220,50);
     button.mousePressed(display);
-    
 }
+
 function updateUser(){
     usertext = this.value();
 }
+
 function display(){
     background(220);
     const inputvalue = userinput.value();
