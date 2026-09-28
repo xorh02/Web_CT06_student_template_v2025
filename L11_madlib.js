@@ -8,7 +8,7 @@ let storyTemplates =[
     "Did you hear about the {adj} {noun} hat tried to {verb} {adv} near {place}:"
 ]
 function setup(){
-    createCanvas(400,400);
+    createCanvas(800,00);
      background(220);
 
     nouninput = createInput();
