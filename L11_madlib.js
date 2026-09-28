@@ -32,7 +32,8 @@ function setup(){
     adjinput = createInput();
     adjinput.position(50,80);
 
-    placeinput = creat
+    placeinput = createInput();
+    
 }
 
 // function updateUser(){
