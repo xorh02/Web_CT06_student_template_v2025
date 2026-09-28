@@ -25,6 +25,8 @@ function setup(){
     // button.mousePressed(display);
     nouninput = createInput();
     nouninput.position(50,20);
+    verbinput = createInput();
+    verbinput.position(50,40);
     
 }
 
