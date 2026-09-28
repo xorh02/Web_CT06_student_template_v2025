@@ -42,7 +42,7 @@ function display(){
     let template = random(storyTemplates);
     storyText = template.replace("{noun}",nounvalue)
                         .replace("{noun}",nounvalue)
-                        .replace("{noun}",nounvalue)
-                        .replace("{noun}",nounvalue)
+                        .replace("{adj}",nounvalue)
+                        .replace("{adv}",advvalue)
                         .replace("{place}",placevalue)
 }
