@@ -6,7 +6,8 @@ let colorinput;
 function setup(){
     createCanvas(200,200);
     userinput = createInput();
-    userinput.position()
+    userinput.position(50,50);
+    userinput.input()
 }
 
 
