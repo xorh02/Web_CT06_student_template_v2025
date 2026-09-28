@@ -2,12 +2,13 @@
 
 let userinput ;
 let usertext;
-let colorinput;
+let colorinput; 
 function setup(){
     createCanvas(400,400);
     userinput = createInput();
     userinput.position(50,50);
     userinput.input(updateUser);
+    
 }
 
 
