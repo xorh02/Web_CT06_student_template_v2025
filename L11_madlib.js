@@ -8,7 +8,7 @@ function setup(){
     userinput = createInput();
     userinput.position(50,50);
     userinput.input(updateUser);
-    
+    colorinput = createColorPicker(0);
 }
 
 
