@@ -1,11 +1,9 @@
 // write your codes here 
 
-let usertext
-
-
-
+let userinput ;
+let usertext;
 function setup(){
-
+    createCanvas()
 
 
 }
