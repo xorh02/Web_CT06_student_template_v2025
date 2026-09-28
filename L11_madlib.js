@@ -23,7 +23,8 @@ function setup(){
     // button = createButton("Print");
     // button.position(220,50);
     // button.mousePressed(display);
-    
+    nouninput = createInput();
+    nouninput.position
 }
 
 // function updateUser(){
