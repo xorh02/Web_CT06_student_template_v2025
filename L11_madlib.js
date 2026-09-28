@@ -51,4 +51,7 @@ function display(){
     textSize(24);
     textAlign(CENTER,CENTER);
     text(inputvalue, 50 , height/2);
+
+    const nounvalue ;
+    const 
 }
