@@ -45,5 +45,5 @@ function display(){
                         .replace("{adj}",adjectivevalue)
                         .replace("{adv}",advvalue)
                         .replace("{place}",placevalue)
-    text(storyText,)
+    text(storyText,200,300)
 }
