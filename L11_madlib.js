@@ -39,19 +39,11 @@ function setup(){
     button.position(50,140);
     button.mousePressed(display);
 }
-
-// function updateUser(){
-//     usertext = this.value();
-// }
-
 function display(){
     background(220);
-  
     textSize(24);
     textAlign(CENTER,CENTER);
-  
-
-    const nounvalue = nouninput.value() 
+    const nounvalue = nouninput.value() ;
     const verbvalue = verbinput.value();
     const adjectivevalue = adjinput.value();
     const placevalue = placeinput.value();
