@@ -11,7 +11,7 @@ function setup(){
     createCanvas(400,400);
      background(220);
 
-    nouninput = createInput();
+    nouninput = createInput("hi");
     nouninput.position(50,20);
     
     verbinput = createInput();
@@ -39,5 +39,5 @@ function display(){
     const adjectivevalue = adjinput.value();
     const advvalue = advinput.value();
     const placevalue = placeinput.value();
-    
+
 }
