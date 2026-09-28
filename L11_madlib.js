@@ -14,7 +14,7 @@ let nouninput,verbinput,adjinput,placeinput;
 
 function setup(){
     createCanvas(400,400);
-    // background(220);
+     background(220);
     // userinput = createInput();
     // userinput.position(50,50);
     // userinput.input(updateUser);
@@ -23,6 +23,7 @@ function setup(){
     // button = createButton("Print");
     // button.position(220,50);
     // button.mousePressed(display);
+    
 }
 
 function updateUser(){
