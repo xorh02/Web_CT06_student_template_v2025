@@ -11,7 +11,7 @@ function setup(){
     createCanvas(400,400);
      background(220);
 
-    nouninput = createInput("hi");
+    nouninput = createInput();
     nouninput.position(50,20);
     
     verbinput = createInput();
