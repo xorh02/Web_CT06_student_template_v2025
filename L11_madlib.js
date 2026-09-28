@@ -52,8 +52,8 @@ function display(){
     textAlign(CENTER,CENTER);
     text(inputvalue, 50 , height/2);
 
-    const nounvalue =  ;
-    const verbvalue ;
+    const nounvalue = nouninput.value() ;
+    const verbvalue = verbinput.value();
     const adjectivevalue;
     const placevalue
 }
