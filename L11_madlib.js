@@ -3,6 +3,7 @@
 let userinput ;
 let usertext;
 let colorinput; 
+let button;
 function setup(){
     createCanvas(400,400);
     userinput = createInput();
@@ -10,6 +11,7 @@ function setup(){
     userinput.input(updateUser);
     colorinput = createColorPicker(0);
     colorinput.position(50,20);
+    button = create
 }
 function draw(){
     background(220);
