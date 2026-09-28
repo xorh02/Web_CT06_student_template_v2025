@@ -3,7 +3,7 @@ let button;
 let nouninput,verbinput,adjinput,placeinput;
 let storyText = "";
 let storyTemplates =[
-    
+    " The {adj} {}"
 ]
 function setup(){
     createCanvas(400,400);
