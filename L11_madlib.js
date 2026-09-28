@@ -45,4 +45,5 @@ function display(){
                         .replace("{adj}",adjectivevalue)
                         .replace("{adv}",advvalue)
                         .replace("{place}",placevalue)
-}
+    text()
+                    }
